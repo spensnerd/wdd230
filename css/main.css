@@ -1,0 +1,26 @@
+/*
+https://coolors.co/03b5aa-f0f4ef-202a32-21361c for colors
+*/
+body {
+    background-color: #f0f4ef;
+  padding: 5px 5px;
+  font-size: 18px;
+  margin: 2px;
+  color: #21361c;
+}
+header, nav, main, footer {
+    margin: 1.2rem auto;
+    max-width: 800px;
+}
+h1, footer {
+    background-color: #202a32;
+    border-radius: 10px;
+    color: #03b5aa;
+    text-align: center;
+    padding: 1.2rem;
+}
+p img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #202a32;
+}

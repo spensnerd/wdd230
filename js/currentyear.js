@@ -31,5 +31,9 @@ const monthName = month[todaysdate.getMonth()];
 const year = todaysdate.getFullYear;
 const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + ", " + todaysdate.getFullYear();
 
-// const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-// document.getElementById('currentyear').textContent = new Date().toLocaleDateString('en-US', options);
+document.getElementById('theyear').textContent = year;
+
+let datemod = new Date(document.lastModified);
+function modifyDate {
+    document.getElementById("lastupdate").textContent = datemod;
+}
