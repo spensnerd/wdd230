@@ -25,15 +25,14 @@ const month = [
     "December"
 ];
 
-const todaysdate = new Date();
-const dayName = dayNames[todaysdate.getDay()];
-const monthName = month[todaysdate.getMonth()];
-const year = todaysdate.getFullYear;
-const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + ", " + todaysdate.getFullYear();
+const todayyear = new Date();
+const dayName = dayNames[todayyear.getDay()];
+const monthName = month[todayyear.getMonth()];
+const year = todayyear.getFullYear();
+const currentdate = `${dayName}, ${todayyear.getDate()} ${monthName}, ${todayyear.getFullYear()}`;
 
-document.getElementById('theyear').textContent = year;
+document.getElementById("theyear").textContent = year;
 
-let datemod = new Date(document.lastModified);
-function modifyDate {
-    document.getElementById("lastupdate").textContent = datemod;
-}
+const options = {year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'};
+      let datemod = new Date(document.lastModified);
+      document.getElementById("lastupdate").textContent = new Date().toLocaleDateString('en-US', options);
