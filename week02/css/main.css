@@ -2,15 +2,15 @@
 https://coolors.co/03b5aa-f0f4ef-202a32-21361c for colors
 */
 body {
-    background-color: #f0f4ef;
+  background-color: #f0f4ef;
   padding: 5px 5px;
   font-size: 18px;
   margin: 2px;
   color: #21361c;
 }
-header, nav, main, footer {
+header, nav, main, footer, section {
     margin: 1.2rem auto;
-    max-width: 800px;
+    max-width: 1800px;
 }
 h1, footer {
     background-color: #202a32;
@@ -22,4 +22,40 @@ h1, footer {
 p img {
     margin: 10px;
     border: 1px solid #202a32;
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 1.5rem;
+    font-size: smaller;
+}
+.designprinciples {
+    background-color: #202a32;
+    border-radius: 10px;
+    color: #03b5aa;
+    text-align: center;
+    padding: 1.2rem;
+    column-gap: 1rem;
+}
+
+@media only screen and (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        padding: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 32.5em) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        padding: 1.5rem;
+    }
 }
