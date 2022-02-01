@@ -11,6 +11,8 @@ body {
 header{
     display: grid;
     grid-template-columns: 35% 65%;
+    align-items: center;
+    justify-content: left;
 }
 
 header, nav, main, footer {
@@ -27,10 +29,4 @@ header, footer {
 p img {
     margin: 10px;
     border: 1px solid #202a32;
-}
-body h1 {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 2rem;
 }

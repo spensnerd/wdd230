@@ -1,28 +1,28 @@
 // day names array
 const dayNames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
 ];
 
 // month names array
 const month = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 
 const todayyear = new Date();
@@ -33,6 +33,14 @@ const currentdate = `${dayName}, ${todayyear.getDate()} ${monthName}, ${todayyea
 
 document.getElementById("theyear").textContent = year;
 
-const options = {year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'};
-      let datemod = new Date(document.lastModified);
-      document.getElementById("lastupdate").textContent = new Date().toLocaleDateString('en-US', options);
+const options = {
+  year: "numeric",
+  month: "numeric",
+  day: "numeric",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric",
+};
+let datemod = new Date(document.lastModified);
+document.getElementById("lastupdate").textContent =
+  new Date().toLocaleDateString("en-US", options);
