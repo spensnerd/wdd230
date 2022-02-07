@@ -1,67 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is a practice site for the Web Development and Design course 230 for Brigham Young University Idaho.">
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This is a practice site for the Web Development and Design course 230 for Brigham Young University Idaho."
+    />
     <title>Owasso Chamber of Commerce</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <link href="css/base.css" rel="stylesheet" />
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="images/occlogo.png" alt="Owasso Chamber of Commerce logo" width="75">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Activities</li>
-                <li>Join</li>
-                <li>Directory</li>
-                <li><a href="https://www.instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="Instagram link">
-                </a></li>
-                <li><a href="https://www.twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="Twitter link">
-                </a></li>
-            </ul>
-        </nav>
-        <div id="today"></div>
+      <img
+        src="images/occlogo.png"
+        alt="Owasso Chamber of Commerce logo"
+        width="75"
+      />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Activities</li>
+          <li>Join</li>
+          <li>Directory</li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="Instagram link" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="Twitter link" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div id="today"></div>
     </header>
 
     <main>
+      <section id="leftcolumn">
+
+        <div>
+          <h3>Event</h3>
+        </div>
+
+        <div>
+          <h3>Weather</h3>
+        </div>
+
+        <div>
+            <h3>Join</h3>
+        </div>
+
+      </section>
+
+      <section id="middlecolumn">
+
         <div>
             <h3>Hero with site name and call to action</h3>
-        </div>
-        
-        <div>
-            <h3>Event</h3>
-        </div>
-        
-        <div>
-            <h3>Weather</h3>
-        </div>
-        
-        <div>
-            <h3>News Release</h3>
-        </div>
+          </div>
 
+          <div>
+            <h3>News Release</h3>
+          </div>
+    
+
+      </section>
+
+     <section id="rightcolumn">
         <div>
             <h3>Spotlight 1</h3>
+          </div>
 
-            <h3>Spotlight 2Z</h3>
-        </div>
+          <div>
+            <h3>Spotlight 2</h3>
+          </div>
 
-
+          <div>
+              <h3>Spotlight 3</h3>
+          </div>
+     </section>
     </main>
-    
+
     <footer>
-        &copy;<span id="copyrightyear"></span> | Spencer F. Griffin | Oklahoma |
+      &copy;<span id="copyrightyear"></span> | Spencer F. Griffin | Oklahoma |
       BYUI Online Learning
       <p>Last Updated: <span id="lastupdate"></span></p>
     </footer>
     <script src="js/chamberdates.js"></script>
-</body>
+  </body>
 </html>

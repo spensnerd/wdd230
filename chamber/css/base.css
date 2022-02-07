@@ -5,6 +5,11 @@ Tertiary color - 588157
 */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Source+Code+Pro:wght@300&display=swap");
 
+main {
+    display: grid;
+
+}
+
 h1,
 h2,
 h3,
@@ -54,3 +59,4 @@ header {
     margin: 0 auto;
     border-bottom: 3px solid #588157;
     }
+   
