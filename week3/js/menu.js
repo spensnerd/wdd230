@@ -1,6 +1,6 @@
 /*
-  By Osvaldas Valutis, www.osvaldas.info
-  Available for use under the MIT License  
+	By Osvaldas Valutis, www.osvaldas.info
+	Available for use under the MIT License  
   More informations:
   https://osvaldas.info/drop-down-navigation-responsive-and-touch-friendly
 */
@@ -34,8 +34,8 @@
 })(jQuery, window, document);
 $("#nav li:has(ul)").doubleTapToGo();
 /*
-  VIEWPORT BUG FIX
-  iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+	VIEWPORT BUG FIX
+	iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
 */
 (function (e) {
   function o() {

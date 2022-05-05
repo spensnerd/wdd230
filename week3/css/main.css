@@ -1,5 +1,5 @@
 body {
-    background-color: #ad2037;
+    background-color: #e07e79;
     padding: 1.25em; /* 20 */
   }
   ul {
@@ -37,7 +37,7 @@ body {
     height: 0;
     border: 0.313em solid transparent; /* 5 */
     border-bottom: none;
-    border-top-color: #5bb12a;
+    border-top-color: #78e09e;
     content: '';
     vertical-align: middle;
     display: inline-block;
@@ -47,7 +47,7 @@ body {
   /* first level */
   #nav > ul {
     height: 3.75em; /* 60 */
-    background-color: #5bb12a;
+    background-color: #78E09E;
   }
   #nav > ul > li {
     width: 25%;
@@ -61,15 +61,15 @@ body {
     text-align: center;
   }
   #nav > ul > li:not( :last-child ) > a {
-    border-right: 1px solid #5bb12a;
+    border-right: 1px solid #78E09E;
   }
   #nav > ul > li:hover > a,
   #nav > ul:not( :hover ) > li.active > a {
-    background-color: #5bb12a;
+    background-color: #78E09E;
   }
   /* second level */
   #nav li ul {
-    background-color: #5bb12a;
+    background-color: #78E09E;
     display: none;
     position: absolute;
     top: 100%;
@@ -84,12 +84,12 @@ body {
   }
   #nav li ul a {
     font-size: 1.25em; /* 20 */
-    border-top: 1px solid #5bb12a;
+    border-top: 1px solid #78E09E;
     padding: 0.75em; /* 15 (20) */
   }
   #nav li ul li a:hover,
   #nav li ul:not( :hover ) li.active a {
-    background-color: #5bb12a;
+    background-color: #78E09E;
   }
   @media only screen and ( max-width: 62.5em ) { /* 1000 */
     #nav {
@@ -113,7 +113,7 @@ body {
       height: 3.125em; /* 50 */
       text-align: left;
       text-indent: -9999px;
-      background-color: #5bb12a;
+      background-color: #78E09E;
       position: relative;
     }
     #nav > a:before,
@@ -154,7 +154,7 @@ body {
     }
     #nav > ul > li:not( :last-child ) > a {
       border-right: none;
-      border-bottom: 1px solid #5bb12a;
+      border-bottom: 1px solid #78E09E;
     }
     /* second level */
     #nav li ul {
