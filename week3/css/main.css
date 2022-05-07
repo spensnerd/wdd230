@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Quicksand&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Crete Round", Helvetica, serif;
+}
+
+p {
+  font-family: "Quicksand", Arial, sans-serif; 
+}
 body {
     background-color: #e07e79;
     padding: 1.25em; /* 20 */
@@ -15,7 +24,7 @@ body {
   #nav {
     width: 60em; /* 1000 */
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     margin-left: -30em; /* 30 480 */
   }
@@ -46,7 +55,9 @@ body {
   }
   /* first level */
   #nav > ul {
-    height: 3.75em; /* 60 */
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    /* height: 3.75em; /* 60 */
     background-color: #78E09E;
   }
   #nav > ul > li {
@@ -91,75 +102,26 @@ body {
   #nav li ul:not( :hover ) li.active a {
     background-color: #78E09E;
   }
-  @media only screen and ( max-width: 62.5em ) { /* 1000 */
-    #nav {
-      width: 100%;
-      position: static;
-      margin: 0;
-    }
+  
+  main {
+    position: absolute;
+    top: 35%;
   }
-  @media only screen and ( max-width: 40em ) /* 640 */
-  {
-    html {
-      font-size: 75%; /* 12 */
-    }
-    #nav {
-      position: relative;
-      top: auto;
-      left: auto;
-    }
-    #nav > a {
-      width: 3.125em; /* 50 */
-      height: 3.125em; /* 50 */
-      text-align: left;
-      text-indent: -9999px;
-      background-color: #78E09E;
-      position: relative;
-    }
-    #nav > a:before,
-    #nav > a:after {
-      position: absolute;
-      border: 2px solid #fff;
-      top: 35%;
-      left: 25%;
-      right: 25%;
-      content: '';
-    }
-    #nav > a:after {
-      top: 60%;
-    }
-    #nav:not( :target ) > a:first-of-type,
-    #nav:target > a:last-of-type {
-      display: block;
-    }
-    /* first level */
-    #nav > ul {
-      height: auto;
-      display: none;
-      position: absolute;
-      left: 0;
-      right: 0;
-    }
-    #nav:target > ul {
-      display: block;
-    }
-    #nav > ul > li {
-      width: 100%;
-      float: none;
-    }
-    #nav > ul > li > a {
-      height: auto;
-      text-align: left;
-      padding: 0 0.833em; /* 20 (24) */
-    }
-    #nav > ul > li:not( :last-child ) > a {
-      border-right: none;
-      border-bottom: 1px solid #78E09E;
-    }
-    /* second level */
-    #nav li ul {
-      position: static;
-      padding: 1.25em; /* 20 */
-      padding-top: 0;
-    }
+
+  .color {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .primary {
+    background-color: #e07e79;
+  }
+
+  .secondary {
+    background-color: #78E09E;
+  }
+
+  .accent {
+    background-color: #c00;
   }

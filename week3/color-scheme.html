@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Color Scheme</title>
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="css/normalize.css" rel="stylesheet"/>
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
@@ -14,37 +14,48 @@
     <header>
         <img src="./images/occlogo.png" alt="Owasso Chamber of Commerce logo" width="75" />
   <h1>Owasso Chamber of Commerce</h1>
+  <nav id="nav" role="navigation">
+    <a href="#nav" title="Show navigation">Show navigation</a>
+    <a href="#" title="Hide navigation">Hide navigation</a>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="target-audience.html" aria-haspopup="true"><span>Target Audience</span></a>
+            <ul>
+                <li><a href="/">Test 1</a></li>
+                <li><a href="/">Test 2</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href="color-scheme.html" aria-haspopup="true"><span>Color Scheme</span></a>
+            <ul>
+                <li><a href="/">Test 3</a></li>
+                <li><a href="/">Test 4</a></li>
+            </ul>
+        </li>
+        <li><a href="typography.html">Typography</a></li>
+    </ul>
+</nav>
   </header>
     <main>
-        <nav id="nav" role="navigation">
-            <a href="#nav" title="Show navigation">Show navigation</a>
-            <a href="#" title="Hide navigation">Hide navigation</a>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li>
-                  <a href="target-audience.html" aria-haspopup="true"><span>Target Audience</span></a>
-                    <ul>
-                        <li><a href="/">Test 1</a></li>
-                        <li><a href="/">Test 2</a></li>
-                    </ul>
-                </li>
-                <li>
-                  <a href="color-scheme.html" aria-haspopup="true"><span>Color Scheme</span></a>
-                    <ul>
-                        <li><a href="/">Test 3</a></li>
-                        <li><a href="/">Test 4</a></li>
-                    </ul>
-                </li>
-                <li><a href="typography.html">Typography</a></li>
-            </ul>
-        </nav>
+        
         <h2>Colors for the commerce site</h2>
-
         <!--https://coolors.co/e07e79-78e09e-cc0000-->
         <p>
             <a href="https://coolors.co/e07e79-78e09e-cc0000">https://coolors.co/e07e79-78e09e-cc0000</a>
         </p>
+        <table class="color">
+            <tr>
+              <th>Primary</th>
+              <th>Secondary</th>
+              <th>Accent</th>
+            </tr>
+            <tr>
+              <td class="primary">[#E07E79]</td>
+              <td class="secondary">[#78E09E]</td>
+              <td class="accent">[#CC0000]</td>
+            </tr>
+          </table>
         </main>
-    
 </body>
 </html>
