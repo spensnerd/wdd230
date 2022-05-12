@@ -3,11 +3,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-h1, p {
-    margin: 0 2vw;
-}
-
+h1, p {margin: 0 2vw;}
 nav button {
     margin: .2rem 2vw;
     background-color: transparent;
@@ -16,14 +12,13 @@ nav button {
     color: #555;
 }
 nav {
-    background-color: #eee;
+    background-color: #faa;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-
 }
 
 nav ul li a {
@@ -31,7 +26,7 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: #333;
-    border-top: 1px solid rgba(0,0,0,0.5);
+    border-top: 1px solid rgb(0, 0, 0,0.5);
 }
 
 nav ul li.active a {
