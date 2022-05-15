@@ -1,35 +1,28 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 64rem) {
 
-nav ul {
-    display: grid;
-}
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    padding: 1rem;
-}
+    header img {
+        width: 100%;
+    }
+    
+    main {
+        grid-template-columns: 1fr 2fr 1fr;
 
-.event {
-    grid-area: 1 / 1 / 2 / 2;
-}
+    }
+    .headings h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    .m {
+        letter-spacing: 1.5pt;
+        font-size: 0.9rem;
+    }
 
-.weather {
-    grid-area: 2 / 1 / 3 / 2;
-}
-
-.join {
-    grid-area: 3 / 1 / 4 / 2;
-}
-
-.hero {
-    grid-area: 1 / 2 / 3 / 3;
-}
-
-.news {
-    grid-area: 3 / 2 / 4 / 3;
+    
 }
 
 
-
-}
