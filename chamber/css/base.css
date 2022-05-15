@@ -98,7 +98,6 @@ nav ul.open {display: block;}
 
 main {
     display: grid;
-    gap: 10px #fff;
 }
 
 main div {
