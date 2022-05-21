@@ -98,6 +98,7 @@ nav ul.open {display: block;}
 
 main {
     display: grid;
+    gap: .25rem;
 }
 
 main div {
@@ -110,6 +111,10 @@ main div {
 .hero {
     order: -1;
     position: relative;
+}
+
+.news {
+    order: -2;
 }
 
 .joinHere {
