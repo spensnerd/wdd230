@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35rem) {
 
-    nav button {display: none;}
+    /* nav button {display: none;}
 
     nav ul#primaryNav{
         display: flex;
@@ -12,7 +12,7 @@
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
-    }
+    } */
 
     .spotlights {
         display: flex;
