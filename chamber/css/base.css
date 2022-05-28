@@ -5,6 +5,7 @@ Tertiary color - CC0000
 */
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Quicksand&display=swap');
 
+
 header {
     background-color: #4ba3c3;
     padding: 5px 0;
@@ -111,6 +112,15 @@ main div {
 .hero {
     order: -1;
     position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+main picture.hero img {
+    display: block;
+    width: 100%;
 }
 
 .news {
