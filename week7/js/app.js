@@ -13,7 +13,7 @@
 
 // if('IntersectionObserver' in window) {
 //     const observer = new IntersectionObserver((items, observer) => {
-//         itemns.forEach((item) => {
+//         items.forEach((item) => {
 //             if(item.isIntersecting) {
 //                 loadImages(item.target);
 //                 observer.unobserve(item.target);
