@@ -4,3 +4,12 @@ body {
     justify-content: center;
     
 }
+
+picture img[data-src] {
+    filter: blur(.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 1.5s;
+}
