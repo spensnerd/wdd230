@@ -49,6 +49,9 @@ header {
         max-width: 20px;
     }
 
+    .imgShadow:hover {
+        box-shadow: 0 0 50px #333;
+    }
 
     nav button {
         margin: .2rem 2vw;
