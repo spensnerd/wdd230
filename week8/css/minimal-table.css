@@ -10,9 +10,9 @@ html {
     font-family: Ubuntu, sans-serif;
   }
 
-  table:nth-of-type(odd) {
-    background-color: teal;
-  }
+  /* tr:nth-of-type(odd) {
+    background-color:rgb(40, 168, 132);
+    } */
   
   td, th {
     border: 1px solid rgb(190,190,190);
@@ -20,7 +20,7 @@ html {
   }
   
   th {
-    background-color: rgb(235,235,235);
+    background-color: teal;
   }
   
   td {
@@ -28,11 +28,11 @@ html {
   }
   
   tr:nth-child(even) td {
-    background-color: rgb(250,250,250);
+    background-color: rgb(137, 236, 137);
   }
   
   tr:nth-child(odd) td {
-    background-color: rgb(245,245,245);
+    background-color: rgba(53, 225, 231, 0.721);
   }
   
   caption {
