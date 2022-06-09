@@ -31,3 +31,6 @@ localStorage.setItem("visits-ls", numVisits);
 
 // show todays date.
 todayDisplay.textContent = Date.now();
+
+document.querySelector("body > footer > span.visits")
+
