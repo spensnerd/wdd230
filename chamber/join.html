@@ -49,9 +49,9 @@
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
-          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="discover.html">Activities</a></li>
-          <li><a href="#">Join</a></li>
+          <li class="active"><a href="#">Join</a></li>
           <li><a href="#">Directory</a></li>
         </ul>
       </nav>
@@ -70,7 +70,8 @@
     a. Use a form field with a get method and action that points to a confirmation page named "thankyou.html".
     b. first name input of type text and is required.
     c. A last name input of type text and is required.
-    d. A business position title field of type text that is not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters using a regular expression (Links to an external site.) pattern.
+    d. A business position title field of type text that is not required but only accepts alpha characters, hyphens,
+        and spaces with a minimum of seven characters using a regular expression pattern.
     e. A email using input of type email that is required and provides a placeholder which contains an example email input.
     f. A cell phone number using input of type tel and is required.
     g. A business name/title text field that is required
@@ -97,44 +98,26 @@
           <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Applicant Information</legend>
+                <label class="top">Business Position Title<input type="text" name="positionTitle" minlength="7" pattern="[a-zA-Z- ]+" placeholder="Letters, hyphens, and spaces only"></label>
                  <label class="top">First Name* <input type="text" name="fname" required></label>
                  <label class="top">Last Name* <input type="text" name="lname" required></label>
-                 <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                 <label class="top">E-Mail* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                 <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                 <label class="top">Cellphone <input type="tel" name="phone" placeholder="1235551234"></label>
+                 <label class="top">Business Name* <input type="text" name="businessName" required> </label>
             </fieldset>
  
             <fieldset>
-             <legend>Course Information</legend>
-              <div>Audience</div>
-              <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
-              <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-              <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
-              <div>Software Needed</div>
-              <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
-              <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
-              <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-              <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP client</label>
+             <legend>Membership Information</legend>
+              <div>Members</div>
+              <label class="sbs"><input type="radio" name="members" value="npMember"> NP Member (No fee)</label>
+              <label class="sbs"><input type="radio" name="members" value="bronze"> Bronze</label>
+              <label class="sbs"><input type="radio" name="members" value="silver"> Silver</label>
+              <label class="sbs"><input type="radio" name="members" value="gold"> Gold</label>
+              <div>Business Description</div>
+              <label class="sbs"><textarea name="members" maxlength="4096S" rows="5" placeholder="Describe your business"></textarea></label>
              </fieldset>
  
-             <fieldset>
-                 <legend>Funding</legend>
-                 <label class="top">Anticipated Completion Date <input type="date" name="completedDate"></label>
-                 <label class="top">Course Subject
-                     <select name="subject">
-                         <option value="">Please Select &#9662;</opton>
-                         <option value="software">Software Development</option>
-                         <option value="creative">Creative Professional</option>
-                         <option value="info">Information Technology</option>
-                         <option value="data">Data Professional</option>
-                         <option value="construction">Construction</option>
-                         <option value="manufacturing">Manufacturing</option>
-                         <option value="business">Business Professional</option>
-                     </select>
-                 </label>
-                 <label class="top">How Many Authors <input type="number" name="authors"></label>
-             </fieldset>
-             <input type="submit" value="Propose My Course" class="submitBtn">
+             <input type="hidden" id="timeSubmitted" name="timeSubmitted" >
+             <input type="submit" value="Join the Chamber" class="submitBtn" onclick="submitForm();">
         </form> 
         </body>
       </main>
@@ -145,9 +128,8 @@
         <p>Last Updated: <span id="lastupdate"></span></p>
       </footer>
       <script src="js/navigation.js"></script>
-      <script src="js/owasso.js"></script>
+      <!-- <script src="js/owasso.js"></script> -->
       <script src="js/chamberdates.js"></script>
-      <script src="js/windchill.js"></script>
     </div>
   </body>
 </html>
