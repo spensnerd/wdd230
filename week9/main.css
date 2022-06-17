@@ -70,4 +70,7 @@ li > img {
   height: 30px;
 }
 
-
+footer {
+    border-top: 1px solid #555;
+    padding: 20px;
+  }
