@@ -3,7 +3,10 @@
   <head>
     <link rel="shortcut icon" href="favicon.ico" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <meta
       name="description"
       content="This is a practice site for the Web Development and Design course 230 for Brigham Young University Idaho."
@@ -48,7 +51,7 @@
         <ul id="primaryNav">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="discover.html">Activities</a></li>
-          <li><a href="#">Join</a></li>
+          <li><a href="join.html">Join</a></li>
           <li><a href="#">Directory</a></li>
         </ul>
       </nav>
@@ -65,35 +68,43 @@
           width="400"
           > -->window.localStorage.getItem(theme);
         </div>
-  
+
         <div class="weather">
           <h3>Weather</h3>
-          <img id="weatherImg" src="images\clouds1920.webp"
-          alt="cloudy sky"
-          width="300"
-          >
-          
-            <p>Current temperature: <span id="t">5</span>&deg;</p>
-            <p>Wind speed: <span id="s">51 </span>mph</p>
-            <p>WindChill: <span id="w"></span><!--&deg;--></p>
+          <img
+            id="weatherImg"
+            src="images\clouds1920.webp"
+            alt="cloudy sky"
+            width="300"
+          />
+
+          <p>Current temperature: <span id="t">5</span>&deg;</p>
+          <p>Wind speed: <span id="s">51 </span>mph</p>
+          <p>
+            WindChill: <span id="w"></span
+            ><!--&deg;-->
+          </p>
         </div>
-  
+
         <div class="join">
           <h3>Join</h3>
         </div>
-  
+
         <div class="hero">
           <h3>Hero with site name and call to action</h3>
           <picture>
-            <img src="images/wdd230-org.jpg" 
-            alt="Hero test"
-            sizes="(max-width: 650px) 50w"
-            srcset="images/wdd230-org200.jpg 200w
-            , images/wdd230-org500.jpg 500w
-            , images/wdd230-org800.jpg 800w"
+            <img
+              src="images/wdd230-org.jpg"
+              alt="Hero test"
+              sizes="(max-width: 650px) 50w"
+              srcset="
+                images/wdd230-org200.jpg 200w,
+                images/wdd230-org500.jpg 500w,
+                images/wdd230-org800.jpg 800w
+              "
             />
           </picture>
-            <!-- <img id="spotlight1" src="images\owassoCityHall.jpg"
+          <!-- <img id="spotlight1" src="images\owassoCityHall.jpg"
             alt="javelina"
             width="500"
             > -->
@@ -101,48 +112,63 @@
             <button class="joinBtn">Join here</button>
           </div>
         </div>
-  
+
         <div class="news">
           <h3>News Release</h3>
-          
+
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga,
-          repellendus nihil ullam quae doloribus laborum assumenda reprehenderit
-          voluptas, delectus omnis illo magni labore unde sequi? Culpa error
-          delectus harum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            fuga, repellendus nihil ullam quae doloribus laborum assumenda
+            reprehenderit voluptas, delectus omnis illo magni labore unde sequi?
+            Culpa error delectus harum.
           </p>
         </div>
-  
+
         <div class="spotlights">
           <div class="spotlight1">
             <h3>Spotlight 1</h3>
-            <img id="spotlight1" src="images\javelina960.webp"
-            alt="javelina"
-            width="300"
-            >
-           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, modi.</p>
+            <img
+              id="spotlight1"
+              src="images\javelina960.webp"
+              alt="javelina"
+              width="300"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              modi.
+            </p>
           </div>
-  
+
           <div class="spotlight2">
             <h3>Spotlight 2</h3>
-            <img id="spotlight2" src="images\javelina960.webp"
-            alt="javelina"
-            width="300"
-            >
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, modi.</p>
+            <img
+              id="spotlight2"
+              src="images\javelina960.webp"
+              alt="javelina"
+              width="300"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              modi.
+            </p>
           </div>
-  
+
           <div class="spotlight3">
             <h3>Spotlight 3</h3>
-            <img id="spotlight3" src="images\javelina960.webp"
-            alt="javelina"
-            width="300"
-            >
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, modi.</p>
+            <img
+              id="spotlight3"
+              src="images\javelina960.webp"
+              alt="javelina"
+              width="300"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              modi.
+            </p>
           </div>
         </div>
       </main>
-  
+
       <footer>
         &copy;<span id="copyrightyear"></span> | Spencer F. Griffin | Oklahoma |
         BYUI Online Learning
