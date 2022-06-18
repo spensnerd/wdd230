@@ -1,0 +1,84 @@
+{
+  "members": [
+    {
+      "bizname": "Owasso Tailoring",
+      "address": "8409 N 76th E Ave Owasso OK, 74055",
+      "phone": "918-933-9751",
+      "url": "http://owassotailor.com/",
+      "imageURL": "http://owassotailor.com/imageHome.png",
+      "membershipStatus": "npMember"
+    },
+    {
+      "bizname": "Baysinger Henson Reimver & Cresswell PLLC Attorneys",
+      "address": "8414 North 123rd East Avenue Owasso OK, 74055",
+      "phone": "918-274-4242",
+      "url": "https://baysingerlaw.com/",
+      "imageURL": "https://baysingerlaw.com/wp-content/uploads/2018/02/bhrc-black-blue-logo.png",
+      "membershipStatus": "bronze"
+    },
+    {
+      "bizname": "Hess Lawfirm PLLC",
+      "address": "11960 E. 86th Street North Owasso, Oklahoma 74055",
+      "phone": "918-376-6511",
+      "url": "https://fhesslaw.com/",
+      "imageURL": "https://6pw.04a.myftpupload.com/wp-content/uploads/2020/08/1-e1597789420629.png",
+      "membershipStatus": "silver"
+    },
+    {
+      "bizname": "Tallgrass Estate Planning",
+      "address": "201 S Main St #202A Owasso, OK 74055",
+      "phone": "918-770-8940",
+      "url": "https://www.tallgrassestateplanning.com/",
+      "imageURL": "https://assets.website-files.com/5ea8522760e589744bb415a9/60f9da2c2ec28b908b8385af_60f9b23f47050b688e4cdfb8_Team-CK-for-HERO.jpg",
+      "membershipStatus": "gold"
+    },
+    {
+      "bizname": "Shepard Technologies",
+      "address": "12324 E 86th St N #272, Owasso Ok 74055",
+      "phone": "918-638-9949",
+      "url": "https://whenchiphappens.com/",
+      "imageURL": "https://whenchiphappens.com/wp-content/uploads/2021/09/Square-Logo.jpg",
+      "membershipStatus": "npMember"
+    },
+    {
+      "bizname": "Esprit Cam Center",
+      "address": "P.O. Box 1711 Owasso, OK 74055",
+      "phone": "918-272-3355",
+      "url": "http://eccmri.com/",
+      "imageURL": "http://eccmri.com/images/d/3423/mhfgimage-1512676009.jpg",
+      "membershipStatus": "bronze"
+    },
+    {
+      "bizname": "Redwood Book Keeping",
+      "address": "202 E 2nd Ave Ste 112 Owasso, OK 74055",
+      "phone": "918-943-5581",
+      "url": "https://www.redwoodbookkeepingok.com/",
+      "imageURL": "https://images.squarespace-cdn.com/content/v1/5f203970edfbd663b9f0eb20/1595950093399-6HSZK856Q6L4QMWT5DGU/redwoodLogo_facebook.png?format=1500w",
+      "membershipStatus": "silber"
+    },
+    {
+      "bizname": "Mail This Copy That",
+      "address": "8703 N Owasso Expy Ste R Owasso, OK 74055-2671",
+      "phone": "918-274-8512",
+      "url": "https://www.mailcopyowasso.com/",
+      "imageURL": "https://www.mailcopyowasso.com/Portals/155/mailthiscopythat.png",
+      "membershipStatus": "gold"
+    },
+    {
+      "bizname": "Fleming Advisors LLC",
+      "address": "8813 N 145th E Ave. Owasso, OK  74055",
+      "phone": "855-877-9807",
+      "url": "https://www.fleming-advisors.com/",
+      "imageURL": "https://static.wixstatic.com/media/561230_c95135db05eb41008627f0c25e7b38c6~mv2.png/v1/fill/w_363,h_57,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/FLEMING%20ADVISORS%20B.png",
+      "membershipStatus": "npMember"
+    },
+    {
+      "bizname": "Sisney Media",
+      "address": "9246 N 143rd E Ave, Owasso, OK 74055",
+      "phone": "918-986-7977",
+      "url": "https://sisneymedia.com/",
+      "imageURL": "https://sisneymedia.com/wp-content/uploads/tulsa-digital-marketing-logo.png",
+      "membershipStatus": "bronze"
+    }
+  ]
+}

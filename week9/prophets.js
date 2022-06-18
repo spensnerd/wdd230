@@ -51,7 +51,9 @@ function displayProphets(prophet) {
   portrait.setAttribute('src', prophet.imageurl);
   portrait.setAttribute(
     'alt',
-    `Portrait of ${prophet.name} ${prophet.lastname} ${prophet.order} president of the Church of Jesus Christ of Latter-Day Saints.`
+    `Portrait of ${prophet.name} ${prophet.lastname} ${ordinal(
+      prophet.order
+    )} president of the Church of Jesus Christ of Latter-Day Saints.`
   );
   portrait.setAttribute('loading', 'lazy');
 
