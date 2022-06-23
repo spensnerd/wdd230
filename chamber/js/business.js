@@ -15,7 +15,7 @@ fetch(chamberBiz)
 function displayMembers(member) {
   let card = document.createElement('section');
   let h3 = document.createElement('h3');
-  let logo = document.createElement('img');
+  let img = document.createElement('img');
   let address = document.createElement('h5');
   let site = document.createElement('a');
 
@@ -25,11 +25,11 @@ function displayMembers(member) {
   site.href = `${member.url}`;
   site.target = `"_blank"`;
 
-  logo.setAttribute('src', member.imageURL);
-  logo.setAttribute('alt', `business image for ${member.bizname}.`);
-  logo.setAttribute('loading', 'lazy');
+  img.setAttribute('src', member.imageURL);
+  img.setAttribute('alt', `business image for ${member.bizname}.`);
+  img.setAttribute('loading', 'lazy');
 
-  card.appendChild(logo);
+  card.appendChild(img);
   card.appendChild(h3);
   card.appendChild(address);
   card.appendChild(site);
@@ -38,8 +38,8 @@ function displayMembers(member) {
 }
 
 // grid or list button
-const gridbutton = document.querySelector('#grid');
-const listbutton = document.querySelector('#list');
+const gridbutton = document.querySelector('#grid:not(header)');
+const listbutton = document.querySelector('#list:not(header)');
 const display = document.querySelector('div');
 
 gridbutton.addEventListener('click', () => {
