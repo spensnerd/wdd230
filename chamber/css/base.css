@@ -168,7 +168,7 @@ form legend {
 
 form label.top, form div {
     display: block;
-    padding-top: 0 1rem;
+    padding-top: 1rem;
     color: #9c2c13;
 }
 
