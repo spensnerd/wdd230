@@ -5,6 +5,9 @@ Tertiary color - CC0000
 */
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Quicksand&display=swap');
 
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
 
 header {
     background-color: #4ba3c3;
@@ -40,7 +43,7 @@ header {
 
     .c {
         letter-spacing: .5pt;
-        color: #CC0000;
+        color: white;
         font-weight: 700;
         font-size: 1rem;
     }
@@ -108,7 +111,6 @@ main {
 
 main div {
     background-color: #78e09e;
-    padding: 2rem;
     border: 5px #000;
     
 }
@@ -232,7 +234,6 @@ section {
 
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 15px;
 	background-color: #4ba3c3;
 }
 
@@ -298,6 +299,8 @@ div h3 {
 div a {
 	font-family: "Roboto", Arial, sans-serif;
 	font-size: 0.9rem;
+    text-decoration: none;
+    color: #CC0000
 }
 
 #cards img {
