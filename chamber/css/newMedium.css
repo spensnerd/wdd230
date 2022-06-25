@@ -13,7 +13,7 @@
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
     } */
-    header {
+    header{
         flex-direction: row;
     }
     .social {
@@ -35,16 +35,20 @@
         order: 3;
         grid-auto-flow: row;
     }
-.list section {
-    display: flex;
-    flex-direction: row;
-    min-width: 100%;
-    justify-content: space-evenly;
-}
-#card.list h3 {
-    max-width: 300px;
-}
-#menu {
-    display: block;
-}
+    .list section{
+        display: flex;
+        flex-direction: row;
+        min-width: 100%;
+        justify-content: space-evenly;
+    }
+    #cards.list img {
+        max-width: 200px;
+    }
+    #cards.list h3 {
+        max-width: 300px;
+    }
+    #menu {
+        display: block;
+    }
+
 }  

@@ -45,10 +45,10 @@ header {
         font-size: 1rem;
     }
 
-    /* .social {
+    /*.social {
         margin-right: 1.5rem;
         max-width: 20px;
-    } */
+    }*/
 
     .imgShadow:hover {
         box-shadow: 0 0 50px #333;
@@ -118,9 +118,9 @@ main div {
     position: relative;
 }
 
-/* img {
+/*img {
     width: 100%;
-} */
+}*/
 
 main picture.hero img {
     display: block;
@@ -211,9 +211,8 @@ form label.top input:required:valid {
 /*-------------END FORM-------------*/
 
 /*--------------CARDS---------------*/
-#cards {
+main {
     grid-template-columns: 1fr;
-    align-items: center;
 }
 
 #menu {
@@ -257,12 +256,12 @@ section {
 }
 
 .grid {
-	display: grid;
+    display: grid;
 }
 
 .grid div {
-    flex-direction: column;
-    text-align: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 .grid div > * {
