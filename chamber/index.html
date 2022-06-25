@@ -77,13 +77,18 @@
             alt="cloudy sky"
             width="300"
           />
-
-          <p>Current temperature: <span id="t">5</span>&deg;</p>
-          <p>Wind speed: <span id="s">51 </span>mph</p>
+          <h1>OpenWeatherMap.org API Test</h1>
           <p>
-            WindChill: <span id="w"></span
-            ><!--&deg;-->
+            The current temperature in Owasso, Oklahoma is
+            <span id="current-temp"></span> &deg;F
           </p>
+          <h2>Current Condition Icon</h2>
+          <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+          </figure>
+          <p>Wind speed: <span id="s"> </span>mph</p>
+          <p>WindChill: <span id="w"></span></p>
         </div>
 
         <div class="join">
@@ -177,6 +182,7 @@
       <script src="js/navigation.js"></script>
       <script src="js/owasso.js"></script>
       <script src="js/chamberdates.js"></script>
+      <script src="js/weather.js"></script>
       <script src="js/windchill.js"></script>
     </div>
   </body>
