@@ -13,10 +13,11 @@
         width: 100%;
     }
     
-    /* main {
+    #large {
+        display: grid;
         grid-template-columns: 1fr 2fr 1fr;
 
-    } */
+    }
     .headings h1 {
         font-size: 2rem;
         margin: 0;

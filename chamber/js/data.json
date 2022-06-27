@@ -4,7 +4,7 @@
       "bizname": "Owasso Tailoring",
       "address": "8409 N 76th E Ave Owasso OK, 74055",
       "phone": "918-933-9751",
-      "imageURL": "chamber/images/directory/owassotailor.png",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/owassotailor.png",
       "membershipStatus": "npMember"
     },
     {
@@ -12,7 +12,7 @@
       "address": "8414 North 123rd East Avenue Owasso OK, 74055",
       "phone": "918-274-4242",
       "url": "https://baysingerlaw.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/fe587f8b3a802641ca73e6023685114218fc327d/chamber/images/directory/bhrcLawyreLogo.png",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/bhrcLawyreLogo.png",
       "membershipStatus": "bronze"
     },
     {
@@ -20,7 +20,7 @@
       "address": "11960 E. 86th Street North Owasso, Oklahoma 74055",
       "phone": "918-376-6511",
       "url": "https://fhesslaw.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/fe587f8b3a802641ca73e6023685114218fc327d/chamber/images/directory/hessLaw.png",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/hessLaw.png",
       "membershipStatus": "silver"
     },
     {
@@ -28,7 +28,7 @@
       "address": "201 S Main St #202A Owasso, OK 74055",
       "phone": "918-770-8940",
       "url": "https://www.tallgrassestateplanning.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/fe587f8b3a802641ca73e6023685114218fc327d/chamber/images/directory/tallgrassEstatePlanning.jpg",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/tallgrassEstatePlanning.jpg",
       "membershipStatus": "gold"
     },
     {
@@ -36,7 +36,7 @@
       "address": "12324 E 86th St N #272, Owasso Ok 74055",
       "phone": "918-638-9949",
       "url": "https://whenchiphappens.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/fe587f8b3a802641ca73e6023685114218fc327d/chamber/images/directory/shepardTechLogo.jpg",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/shepardTechLogo.jpg",
       "membershipStatus": "npMember"
     },
     {
@@ -44,7 +44,7 @@
       "address": "P.O. Box 1711 Owasso, OK 74055",
       "phone": "918-272-3355",
       "url": "http://eccmri.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/fe587f8b3a802641ca73e6023685114218fc327d/chamber/images/directory/espritCamLogo.jpg",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/espritCamLogo.jpg",
       "membershipStatus": "bronze"
     },
     {
@@ -52,7 +52,7 @@
       "address": "202 E 2nd Ave Ste 112 Owasso, OK 74055",
       "phone": "918-943-5581",
       "url": "https://www.redwoodbookkeepingok.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/fe587f8b3a802641ca73e6023685114218fc327d/chamber/images/directory/redwoodBookKeepingLogo.png",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/redwoodBookKeepingLogo.png",
       "membershipStatus": "silber"
     },
     {
@@ -60,7 +60,7 @@
       "address": "8703 N Owasso Expy Ste R Owasso, OK 74055-2671",
       "phone": "918-274-8512",
       "url": "https://www.mailcopyowasso.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/fe587f8b3a802641ca73e6023685114218fc327d/chamber/images/directory/mailthiscopythat.png",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/mailthiscopythat.png",
       "membershipStatus": "gold"
     },
     {
@@ -68,7 +68,7 @@
       "address": "8813 N 145th E Ave. Owasso, OK  74055",
       "phone": "855-877-9807",
       "url": "https://www.fleming-advisors.com/",
-      "imageURL": "https://raw.githubusercontent.com/spensnerd/wdd230/master/chamber/images/directory/flemingAdvisorsLogo.webp",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/flemingAdvisorsLogo.webp",
       "membershipStatus": "npMember"
     },
     {
@@ -76,7 +76,7 @@
       "address": "9246 N 143rd E Ave, Owasso, OK 74055",
       "phone": "918-986-7977",
       "url": "https://sisneymedia.com/",
-      "imageURL": "https://github.com/spensnerd/wdd230/blob/3f6d0dbdeb776bdee0a608193d86e137c504faf7/chamber/images/directory/tulsaDigitalMarketingLogo.png",
+      "imageURL": "https://spensnerd.github.io/wdd230/chamber/images/directory/tulsaDigitalMarketingLogo.png",
       "membershipStatus": "bronze"
     }
   ]
