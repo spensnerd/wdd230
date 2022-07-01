@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Quicksand&display=swap');
+
 /* https://coolors.co/e07e79-78e09e-cc0000 
 Main color - 78E09E
 Secondary color - 4BA3C3
 Tertiary color - CC0000
 */
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Quicksand&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
-    color: white;
+h1, h2, h3, h4, h5, h6, p, figcaption, .c {
+    color: #ffffff;
 }
 
 header {
-    background-color: #4ba3c3;
+    background-color: #046c92;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -43,7 +44,6 @@ header {
 
     .c {
         letter-spacing: .5pt;
-        color: white;
         font-weight: 700;
         font-size: 1rem;
     }
@@ -66,7 +66,7 @@ header {
     }
 
 nav {
-    background-color: #4ba3c3;
+    background-color: #046c92;
     border-bottom: 2px solid #CC0000;
 }
 
@@ -77,18 +77,17 @@ nav ul {
 
 }
 
-nav ul li a {
+nav ul li a, a.active {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #CC0000;
+    color: #ffffff;
     border-top: 2px solid rgba(0,0,0,0.5);
 }
 
 /* Add the active class to the page link for each page. */
 nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
-    color: #fff;
 }
 
 nav ul li a:hover {
@@ -110,7 +109,7 @@ main {
 }
 
 main div {
-    background-color: #78e09e;
+    background-color: #046c92;
     border: 5px #000;
     
 }
@@ -137,7 +136,7 @@ main picture.hero img {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    background: radial-gradient(#cc0000, #78e09e)
+    background: radial-gradient(#cc0000, #20b055)
 }
 
 #banner {
@@ -171,7 +170,7 @@ form legend {
 
 form label.top, form div {
     display: block;
-    padding-top: 0 1rem;
+    padding-top: 1rem;
     color: #9c2c13;
 }
 
@@ -195,7 +194,7 @@ form label.sbs {
 form input.submitBtn {
     border: none;
     background-color: #9c2c13;
-    color: white;
+    color: #20B055;
     border-radius: .75rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -222,7 +221,7 @@ form label.top input:required:valid {
     margin: 1rem auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #78E09E;
+	background-color: #046c92;
 	text-align: center;
     display: none;
 }
@@ -234,7 +233,7 @@ section {
 
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	background-color: #4ba3c3;
+	background-color: #046c92;
 }
 
 #menu button {
