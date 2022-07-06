@@ -48,7 +48,7 @@
             <li class="active"><a href="#">Contact Us</a></li>
           </ul>
         </nav>
-        <main>
+        <main id="contact">
           <!-- contact information for the chamber
             , office hours
             , points of contact or board of director information
@@ -76,9 +76,31 @@
               <p>Monday-Friday 9:00 AM to 4:30 PM</p>
             </div>
             <form method="get" action="thanks.html">
-              
+              <fieldset>
+                <legend>Contact Form</legend>
+                <label class="top">Name* 
+                  <input type="text" name="fullName"
+                  placeholder="John Smith" required
+                  /></label>
+                  <label class="top">E-Mail* 
+                    <input type="email" name="email"
+                    placeholder="johnsmith@owasso.com" required
+                    /></label>
+                    <label class="top">Question/Concern* 
+                      <input type="text" name="question"
+                      required
+                      ></label>
+              </fieldset>
+              <input
+            type="submit"
+            value="Send your Question"
+            class="submitBtn"
+            onclick="submitForm();"
+          />
             </form>
         </main>
-    
+        <script src="js/navigation.js"></script>
+        <script src="js/chamberdates.js"></script>
+
 </body>
 </html>

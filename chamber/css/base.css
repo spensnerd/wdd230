@@ -119,9 +119,9 @@ main div {
     position: relative;
 }
 
-/* img {
+img {
     width: 100%;
-} */
+}
 
 main picture.hero img {
     display: block;
@@ -308,3 +308,9 @@ div a {
 }
 
 /*-----------END CARDS--------------*/
+
+/*---------CONTACT FORM-------------*/
+#contact {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}

@@ -62,81 +62,72 @@
       </div>
       <div id="today"></div>
       <main>
-        <body>
-          <form method="get" action="thanks.html">
-            <fieldset>
-              <legend>Applicant Information</legend>
-              <label class="top"
-                >Business Position Title<input
-                  type="text"
-                  name="positionTitle"
-                  minlength="7"
-                  pattern="[a-zA-Z- ]+"
-                  placeholder="Letters, hyphens, and spaces only"
-              /></label>
-              <label class="top"
-                >First Name* <input type="text" name="fname" required
-              /></label>
-              <label class="top"
-                >Last Name* <input type="text" name="lname" required
-              /></label>
-              <label class="top"
-                >Cellphone
-                <input type="tel" name="phone" placeholder="1235551234"
-              /></label>
-              <label class="top"
-                >Business Name*
-                <input type="text" name="businessName" required />
-              </label>
-            </fieldset>
+        <form method="get" action="thanks.html">
+          <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top"
+              >Business Position Title<input
+                type="text"
+                name="positionTitle"
+                minlength="7"
+                pattern="[a-zA-Z- ]+"
+                placeholder="Letters, hyphens, and spaces only"
+            /></label>
+            <label class="top"
+              >First Name* <input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name* <input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Cellphone
+              <input type="tel" name="phone" placeholder="1235551234"
+            /></label>
+            <label class="top"
+              >Business Name*
+              <input type="text" name="businessName" required />
+            </label>
+          </fieldset>
 
-            <fieldset>
-              <legend>Membership Information</legend>
-              <div>Members</div>
-              <label class="sbs"
-                ><input type="radio" name="members" value="npMember" /> NP
-                Member (No fee)</label
-              >
-              <label class="sbs"
-                ><input type="radio" name="members" value="bronze" />
-                Bronze</label
-              >
-              <label class="sbs"
-                ><input type="radio" name="members" value="silver" />
-                Silver</label
-              >
-              <label class="sbs"
-                ><input type="radio" name="members" value="gold" /> Gold</label
-              >
-              <div>Business Description</div>
-              <label class="sbs">
-                <textarea
-                  name="members"
-                  maxlength="4096S"
-                  rows="5"
-                  placeholder="Describe your business"
-                ></textarea>
-              </label>
-            </fieldset>
+          <fieldset>
+            <legend>Membership Information</legend>
+            <div>Members</div>
+            <label class="sbs"
+              ><input type="radio" name="members" value="npMember" /> NP Member
+              (No fee)</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="members" value="bronze" />
+              Bronze</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="members" value="silver" />
+              Silver</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="members" value="gold" /> Gold</label
+            >
+            <div>Business Description</div>
+            <label class="sbs">
+              <textarea
+                name="members"
+                maxlength="4096S"
+                rows="5"
+                placeholder="Describe your business"
+              ></textarea>
+            </label>
+          </fieldset>
 
-            <input type="hidden" id="timeSubmitted" name="timeSubmitted" />
-            <input
-              type="submit"
-              value="Join the Chamber"
-              class="submitBtn"
-              onclick="submitForm();"
-            />
-          </form>
-        </body>
+          <input type="hidden" id="timeSubmitted" name="timeSubmitted" />
+          <input
+            type="submit"
+            value="Join the Chamber"
+            class="submitBtn"
+            onclick="submitForm();"
+          />
+        </form>
       </main>
-
-      <footer>
-        &copy;<span id="copyrightyear"></span> | Spencer F. Griffin | Oklahoma |
-        BYUI Online Learning
-        <p>Last Updated: <span id="lastupdate"></span></p>
-      </footer>
       <script src="js/navigation.js"></script>
-      <!-- <script src="js/owasso.js"></script> -->
       <script src="js/chamberdates.js"></script>
     </div>
   </body>
