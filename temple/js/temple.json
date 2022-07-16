@@ -1,0 +1,64 @@
+{
+  "temples": [
+    {
+      "location": "Los Angeles",
+      "address": {
+        "streetAddress": "na",
+        "city": "na",
+        "state": "na",
+        "zipCode": "na"
+      },
+      "telephone": "filler",
+      "services": "filler",
+      "history": "filler",
+      "ordinance schedule": "filler",
+      "session schedule": "filler",
+      "temple closure schedule": "filler"
+    },
+    {
+      "location": "Kansas City",
+      "address": {
+        "streetAddress": "na",
+        "city": "na",
+        "state": "na",
+        "zipCode": "na"
+      },
+      "telephone": "filler",
+      "services": "filler",
+      "history": "filler",
+      "ordinance schedule": "filler",
+      "session schedule": "filler",
+      "temple closure schedule": "filler"
+    },
+    {
+      "location": "Memphis",
+      "address": {
+        "streetAddress": "na",
+        "city": "na",
+        "state": "na",
+        "zipCode": "na"
+      },
+      "telephone": "filler",
+      "services": "filler",
+      "history": "filler",
+      "ordinance schedule": "filler",
+      "session schedule": "filler",
+      "temple closure schedule": "filler"
+    },
+    {
+      "location": "Oklahoma City",
+      "address": {
+        "streetAddress": "na",
+        "city": "na",
+        "state": "na",
+        "zipCode": "na"
+      },
+      "telephone": "filler",
+      "services": "filler",
+      "history": "filler",
+      "ordinance schedule": "filler",
+      "session schedule": "filler",
+      "temple closure schedule": "filler"
+    }
+  ]
+}

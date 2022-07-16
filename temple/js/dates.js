@@ -1,11 +1,46 @@
-const now = new Date();
-const today = document.querySelector('#today');
-const copyrightyear = document.querySelector('#copyrightyear');
-const lastupdate = document.querySelector('#lastupdate');
+// day names array
+const dayNames = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+];
 
-today.textContent = new Intl.DateTimeFormat('en-UK', {
-  dateStyle: 'full',
-}).format(now);
+// month names array
+const month = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
 
-copyrightyear.textContent = now.getFullYear();
-lastupdate.textContent = document.lastModified;
+const todayyear = new Date();
+const dayName = dayNames[todayyear.getDay()];
+const monthName = month[todayyear.getMonth()];
+const year = todayyear.getFullYear();
+const currentdate = `${dayName}, ${todayyear.getDate()} ${monthName}, ${todayyear.getFullYear()}`;
+
+document.getElementById('theyear').textContent = year;
+
+const options = {
+  year: 'numeric',
+  month: 'numeric',
+  day: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric',
+};
+let datemod = new Date(document.lastModified);
+document.getElementById('lastupdate').textContent =
+  new Date().toLocaleDateString('en-US', options);

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temple Inn & Suites</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
   </head>
   <body>
     <header>
@@ -15,14 +19,31 @@
         <li><a href="temple.html">Temple</a></li>
         <li><a href="reservation.html">Reservation</a></li>
         <li><a href="service.html">Services</a></li>
-        <li><a href="reception.html">Reception</a></li>
+        <li class="active"><a href="reception.html">Reception</a></li>
         <li><a href="missionary.html">Missionary</a></li>
       </ul>
     </nav>
 
-    <main></main>
+    <main>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </main>
     <footer>
-      &copy;<span id="copyrightyear"></span>
+      &copy; <span id="theyear"></span> |
+      <span><a href="contact.html" target="_blank">Contact Us</a></span> |
+      <div class="social">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="Instagram link" />
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="images/twitter.png" alt="Twitter link" />
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+          <img src="images/youtube.png" alt="Youtube link" />
+        </a>
+        <a href="https://www.pinterest.com/" target="_blank">
+          <img src="images/pinterest.png" alt="Pinterest link" />
+        </a>
+      </div>
 
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.3894111367204!2d-77.09847668429383!3d38.983608079557484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9e17b369%3A0xdf03f7c3c0ffb174!2s4847%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1657658354714!5m2!1sen!2sus"
@@ -33,9 +54,8 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-
       <p>Last Updated: <span id="lastupdate"></span></p>
     </footer>
   </body>
-  <script src="dates.js"></script>
+  <script src="js/dates.js"></script>
 </html>
