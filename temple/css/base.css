@@ -1,9 +1,9 @@
 @importurl('https://fonts.googleapis.com/css2?family=Arvo&family=Exo:wght@300&display=swap');
 /* Color base
-https://coolors.co/bdd5ea-eabdd5-d5eabd
+https://coolors.co/bdd5ea-eabdd5-9c2c13
 Main color: bdd5ea
 Secondary color: eabdd5
-Tertiary color: d5eabd
+Tertiary color: 9c2c13
 Typography:
 Arvoe and Exo for my fonts
 @importurl('https://fonts.googleapis.com/css2?family=Arvo&family=Exo:wght@300&display=swap');
@@ -14,8 +14,33 @@ body {
     background-color: #bdd5ea;
 }
 
+header {
+    background-color: #bdd5ea;
+    color: white;
+    padding: 5%;
+    width: 90%;
+}
+
+main {
+    padding: 15px;
+}
+
 p {
     font-family: 'Arvo', Arial, sans-serif;
+}
+
+nav ul.primaryNav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2vw;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #bdd5ea;
+    border-bottom: 2px solid #9c2c13;
 }
 
 
@@ -23,44 +48,50 @@ p {
 /*-------------FORM-------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 2px solid #445ba9;
+    border: 2px solid #9c2c13;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #445ba9;
+    color: #9c2c13;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 
 form label.top, form div {
-    display: block;
+    display: grid;
     padding-top: 1rem;
     color: #9c2c13;
 }
 
 form label.top input, form label.top select {
-    display: block;
+    display: grid;
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: #9c2c13;
     width: 100%;
     max-width: 20rem;
 }
 
 form label.sbs {
-    display: block;
+    display: grid;
     padding: .75rem 0;
-    color: #555;
+    color: #9c2c13;
 }
+
+div.check {
+    display: inline;
+   width: auto;
+}
+
 
 form input.submitBtn {
     border: none;
     background-color: #9c2c13;
-    color: #20B055;
+    color: #bdd5ea;
     border-radius: .75rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -75,4 +106,15 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+textarea {
+    width: 90%;
+    height 150px;
+}
+
 /*-------------END FORM-------------*/
+/* Color base
+https://coolors.co/bdd5ea-eabdd5-9c2c13
+Main color: bdd5ea
+Secondary color: eabdd5
+Tertiary color: 9c2c13
+*/
