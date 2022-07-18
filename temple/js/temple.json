@@ -1,63 +1,87 @@
 {
   "temples": [
     {
-      "location": "Los Angeles",
-      "address": {
-        "streetAddress": "na",
-        "city": "na",
-        "state": "na",
-        "zipCode": "na"
-      },
-      "telephone": "filler",
-      "services": "filler",
-      "history": "filler",
-      "ordinance schedule": "filler",
-      "session schedule": "filler",
-      "temple closure schedule": "filler"
-    },
-    {
       "location": "Kansas City",
       "address": {
-        "streetAddress": "na",
-        "city": "na",
-        "state": "na",
-        "zipCode": "na"
+        "streetAddress": "7001 Searcy Creek Pkwy",
+        "city": "Kansas City",
+        "state": "MO",
+        "zipCode": "64119-5336"
       },
-      "telephone": "filler",
-      "services": "filler",
-      "history": "filler",
-      "ordinance schedule": "filler",
-      "session schedule": "filler",
-      "temple closure schedule": "filler"
+      "telephone": "+1 816-416-1430",
+      "email": "kansascitytemple@lds.org",
+      "services": "Clothing Rental",
+      "history": "Plans to construct the temple were announced 4 October 2008, Church leaders broke ground 8 May 2010, and Thomas S. Monson, president of The Church of Jesus Christ of Latter-day Saints, dedicated the Kansas City Missouri Temple 6 May 2012. The temple serves Latter-day Saints in Kansas, Missouri and small portions of Oklahoma and Arkansas.",
+      "ordinance schedule": {
+        "Baptisms": "By appointment only Tuesday to Saturday 7 AM, 9 AM, 11 AM 2 AM",
+        "Initiatory": "By appointment only Tuesday to Saturday On the hour 6 AM to 8 PM",
+        "Endowment": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
+        "Sealings": "By appointment only Tuesday to Saturday every 2 hours 6 AM to 8 PM"
+      },
+      "session schedule": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
+      "temple closure schedule": "Monday, 19 September 2022 to Monday, 19 December 2022, Saturday, 24 December 2022 "
+    },
+    {
+      "location": "Los Angeles",
+      "address": {
+        "streetAddress": "10777 Santa Monica Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90025-4718"
+      },
+      "telephone": "+1 310-474-5569",
+      "email": "losangelestemple@lds.org",
+      "services": "Clothing Rental, Patron Housing, Distribution Center",
+      "history": "Plans to construct the temple were announced 6 March 1937, Church leaders broke ground 22 September 1951, and David O. McKay, president of The Church of Jesus Christ of Latter-day Saints from 1951 to 1970, dedicated the Los Angeles California Temple 11 March 1956. The temple serves Latter-day Saints in Southern California.",
+      "ordinance schedule": {
+        "Baptisms": "By appointment only Tuesday to Saturday 7 AM, 9 AM, 11 AM 2 AM",
+        "Initiatory": "By appointment only Tuesday to Saturday On the hour 6 AM to 8 PM",
+        "Endowment": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
+        "Sealings": "By appointment only Tuesday to Saturday every 2 hours 6 AM to 8 PM"
+      },
+      "session schedule": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
+      "temple closure schedule": "Monday, 11 July 2022 to Monday, 1 August 2022, Saturday, 1 October 2022, Tuesday, 22 November 2022 to Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022"
     },
     {
       "location": "Memphis",
       "address": {
-        "streetAddress": "na",
-        "city": "na",
-        "state": "na",
-        "zipCode": "na"
+        "streetAddress": "4199 Kirby-Whitten Pkwy",
+        "city": "Bartlett",
+        "state": "TN",
+        "zipCode": "38135-9245"
       },
-      "telephone": "filler",
-      "services": "filler",
-      "history": "filler",
-      "ordinance schedule": "filler",
-      "session schedule": "filler",
+      "telephone": "+1 901-379-0202",
+      "email": "memphistemple@lds.org",
+      "services": "None",
+      "history": "Plans to construct the temple were announced 17 September 1998, Church leaders broke ground 16 January 1999, and President James E. Faust, then second counselor in the First Presidency of The Church of Jesus Christ of Latter-day Saints, dedicated the Memphis Tennessee Temple 23 April 2000. The temple serves Latter-day Saints in Memphis; Little Rock, Arkansas and Tupelo, Mississippi.",
+      "ordinance schedule": {
+        "Baptisms": "By appointment only Tuesday to Saturday 7 AM, 9 AM, 11 AM 2 AM",
+        "Initiatory": "By appointment only Tuesday to Saturday On the hour 6 AM to 8 PM",
+        "Endowment": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
+        "Sealings": "By appointment only Tuesday to Saturday every 2 hours 6 AM to 8 PM"
+      },
+      "session schedule": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
       "temple closure schedule": "filler"
     },
     {
       "location": "Oklahoma City",
       "address": {
-        "streetAddress": "na",
-        "city": "na",
-        "state": "na",
-        "zipCode": "na"
+        "streetAddress": "12030 N Mustang Road",
+        "city": "Yukon",
+        "state": "OK",
+        "zipCode": "73099-9801"
       },
-      "telephone": "filler",
-      "services": "filler",
-      "history": "filler",
-      "ordinance schedule": "filler",
-      "session schedule": "filler",
+      "telephone": "+1 405-373-2309",
+      "email": "oklahomacitytemple@lds.org",
+      "services": "None",
+      "history": "Plans to construct the temple were announced 14 March 1999, Church leaders broke ground 3 July 1999, and President James E. Faust, second counselor in the First Presidency of The Church of Jesus Christ of Latter-day Saints, dedicated the Oklahoma City Oklahoma Temple 30 July 2000. The temple serves Latter-day Saints in Oklahoma, Kansas, Arkansas and Missouri.",
+      "ordinance schedule": {
+        "Baptisms": "By appointment only Tuesday to Saturday 7 AM, 9 AM, 11 AM 2 AM",
+        "Initiatory": "By appointment only Tuesday to Saturday On the hour 6 AM to 8 PM",
+        "Endowment": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
+        "Sealings": "By appointment only Tuesday to Saturday every 2 hours 6 AM to 8 PM"
+      },
+      "session schedule": "By appiontment only Tuesday to Saturday every 2 hours 6 AM to 8 PM",
       "temple closure schedule": "filler"
     }
   ]
