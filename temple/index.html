@@ -11,6 +11,7 @@
   </head>
   <body>
     <header>
+      <img src="images/logo325x274.png" alt="" />
       <h1>Temple Inn & Suites</h1>
       <nav>
         <ul class="primaryNav">
@@ -101,9 +102,50 @@
           </ul>
         </section>
       </article>
+      <article>
+        <section>
+          <h2>Oklahoma City Temple</h2>
+          <p>
+            The Oklahom City Oklahoma temple was dedicated in 2000 and
+            rededicated in 2019 by President Henry B. Eyring. It is located just
+            north of Oklahoma city on the Northwest Expressway, just a short
+            shuttle ride from one of our premier hotels. Its layout is slightly
+            different than most small temples from the time as the baptismal
+            font is to the left of the front desk and the other rooms are to the
+            right.
+          </p>
+          <p>
+            Over the years several tornados have touched down close, and expect
+            to hear the tornado siren being tested Saturdays at noon as the fire
+            department is just around the corner. We have a section with the
+            weather just below here. Check it out!
+          </p>
+        </section>
+        <div class="weather">
+          <h3>Oklahoma City Temple Weather</h3>
+          <p>Current temperature: <span id="current-temp"></span> &deg;F</p>
+          <h3>Current Conditions:</h3>
+          <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption id="w-icon"></figcaption>
+          </figure>
+          <p>Humidity: <span id="humidity"></span>&#x25;</p>
+        </div>
+      </article>
+      <article>
+        <section>
+          <h2>3 Day forecast</h2>
+          <div id="forecast">
+            <p id="today">Today</p>
+            <p id="tomorrow">Tomorrow</p>
+            <p id="nextDay">Next Day</p>
+          </div>
+        </section>
+      </article>
     </main>
     <footer>
       &copy; <span id="theyear"></span> |
+      <span><a href="resource.html">Link to Resource page</a></span>
       <span><a href="contact.html" target="_blank">Contact Us</a></span> |
       <div class="social">
         <a href="https://www.instagram.com" target="_blank">
@@ -133,4 +175,5 @@
     </footer>
   </body>
   <script src="js/dates.js"></script>
+  <script src="js/weather.js"></script>
 </html>

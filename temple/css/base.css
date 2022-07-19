@@ -12,6 +12,7 @@ Arvoe and Exo for my fonts
 /*-----------ALL PAGES----------*/
 body {
     background-color: #bdd5ea;
+    padding: 10px;
 }
 
 header {
@@ -108,7 +109,8 @@ form label.top input:required:valid {
 }
 textarea {
     width: 90%;
-    height 150px;
+    padding: 5%;
+    height: 100px;
 }
 
 /*-------------END FORM-------------*/
