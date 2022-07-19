@@ -1,4 +1,4 @@
-@importurl('https://fonts.googleapis.com/css2?family=Arvo&family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Exo:wght@300&display=swap');
 /* Color base
 https://coolors.co/bdd5ea-eabdd5-9c2c13
 Main color: bdd5ea
@@ -10,6 +10,9 @@ Arvoe and Exo for my fonts
 */
 
 /*-----------ALL PAGES----------*/
+h1, h2, h3, h4, h5 {
+font-family: 'Arvo', Helvetica, serif;
+}
 body {
     background-color: #bdd5ea;
     padding: 10px;
@@ -18,8 +21,14 @@ body {
 header {
     background-color: #bdd5ea;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
     padding: 5%;
     width: 90%;
+    border-bottom: #9c2c13;
 }
 
 main {
@@ -27,10 +36,55 @@ main {
 }
 
 p {
-    font-family: 'Arvo', Arial, sans-serif;
+    font-family: 'Exo', Arial, sans-serif;
+}
+/*--------Navigation-------- */
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #9c2c13;
 }
 
-nav ul.primaryNav {
+nav {
+background-color: #bdd5ea;
+border-bottom: 2px solid #9c2c13;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+
+}
+
+nav ul li a, a.active {
+display: block;
+padding: .8rem 2vw;
+text-decoration: none;
+color: #ffffff;
+border-top: 2px solid rgba(0,0,0,0.5);
+}
+
+/* Add the active class to the page link for each page. */
+nav ul li.active a {
+background-color: rgba(0,0,0,0.2);
+}
+
+nav ul li a:hover {
+background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+/* nav ul.primaryNav {
     display: flex;
     justify-content: space-evenly;
     margin-left: 2vw;
@@ -40,11 +94,55 @@ nav ul.primaryNav {
 }
 
 nav {
+    margin: 0 auto;
+    max-width: 760px;
     background-color: #bdd5ea;
     border-bottom: 2px solid #9c2c13;
 }
 
+.primaryNav li:first-child {
+    display: block;
+}
 
+.primaryNav li {
+    display: none;
+}
+
+.primaryNav a {
+    display: block;
+    padding: .75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: .5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+nav ul li a, a.active {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 2px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;} */
 
 /*-------------FORM-------------*/
 form fieldset {
@@ -113,7 +211,6 @@ textarea {
     height: 100px;
 }
 
-/*-------------END FORM-------------*/
 /* Color base
 https://coolors.co/bdd5ea-eabdd5-9c2c13
 Main color: bdd5ea
