@@ -14,9 +14,10 @@
       <h1>Temple Inn & Suites</h1>
     </header>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="temple.html">Temple</a></li>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      <ul id="primaryNav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="temple.html">Temple</a></li>
         <li><a href="reservation.html">Reservation</a></li>
         <li><a href="service.html">Services</a></li>
         <li><a href="reception.html">Reception</a></li>
@@ -25,7 +26,7 @@
     </nav>
 
     <main>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="cards"></div>
     </main>
     <footer>
       &copy; <span id="theyear"></span> |
@@ -45,7 +46,7 @@
         </a>
       </div>
 
-      <iframe
+      <!-- <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.3894111367204!2d-77.09847668429383!3d38.983608079557484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9e17b369%3A0xdf03f7c3c0ffb174!2s4847%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1657658354714!5m2!1sen!2sus"
         width="400"
         height="300"
@@ -53,9 +54,10 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      ></iframe> -->
       <p>Last Updated: <span id="lastupdate"></span></p>
     </footer>
   </body>
   <script src="js/dates.js"></script>
+  <script src="js/temple.js"></script>
 </html>

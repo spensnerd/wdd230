@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#w-icon');
 const url =
-  'https://api.openweathermap.org/data/2.5/weather?q=oklahoma+city&appid=3e2b6958f47431ef6f508c8c75fed505&units=imperial';
+  'https://api.openweathermap.org/data/2.5/weather?q=bethesda&appid=3e2b6958f47431ef6f508c8c75fed505&units=imperial';
 const forecast = document.querySelector('#forecast');
 const today = document.querySelector('#today');
 const tomorrow = document.querySelector('#tomorrow');
