@@ -1,6 +1,5 @@
 const requestUrl = 'https://spensnerd.github.io/wdd230/temple/js/temple.json';
 const cards = document.querySelector('.cards');
-
 // async function apiFetch() {
 //   try {
 //     const response = await fetch(requestUrl);
@@ -34,18 +33,32 @@ function displayResults(temples) {
   let email = document.createElement('p');
   let services = document.createElement('p');
   let history = document.createElement('p');
-  let ordinance = document.createElement('p');
+  let baptism = document.createElement('p');
+  let initiatory = document.createElement('p');
+  let endowment = document.createElement('p');
+  let sealings = document.createElement('p');
+  let session = document.createElement('p');
+  let closures = document.createElement('p');
+  let btn = document.createElement('button');
 
   title.textContent = `${temples.location} temple`;
   image.setAttribute('src', temples.imageURL);
   image.setAttribute('alt', `picture of ${temples.location} temple`);
   image.setAttribute('loading', 'lazy');
+  btn.setAttribute('id', `${temples.address.state}Btn`);
+
   streetAddress.textContent = `Address: ${temples.address.streetAddress} ${temples.location} ${temples.address.state}, ${temples.address.zipCode}`;
   phone.textContent = `+1 ${temples.telephone}`;
   email.textContent = `${temples.email}`;
-  services.textContent = `${temples.services}`;
-  history.textContent = `${temples.history}`;
-  ordinance.textContent = `${temples.sessionSchedule}`;
+  services.textContent = ` Services: ${temples.services}`;
+  history.textContent = `History: ${temples.history}`;
+  baptism.textContent = `Baptism Schedule: ${temples.ordinanceSchedule.Baptisms}`;
+  initiatory.textContent = `Initiatory Schedule: ${temples.ordinanceSchedule.Initiatory}`;
+  endowment.textContent = `Endowment Schedule: ${temples.ordinanceSchedule.Endowment}`;
+  sealings.textContent = `Sealings Schedule: ${temples.ordinanceSchedule.Sealings}`;
+  session.textContent = `Session Schedule: ${temples.sessionSchedule}`;
+  closures.textContent = `Closures: ${temples.templeClosureSchedule}`;
+  btn.innerHTML = `I like the ${temples.location} temple`;
 
   card.appendChild(title);
   card.appendChild(image);
@@ -54,7 +67,25 @@ function displayResults(temples) {
   card.appendChild(email);
   card.appendChild(services);
   card.appendChild(history);
-  card.appendChild(ordinance);
+  card.appendChild(baptism);
+  card.appendChild(initiatory);
+  card.appendChild(endowment);
+  card.appendChild(sealings);
+  card.appendChild(session);
+  card.appendChild(closures);
+  card.appendChild(btn);
 
   document.querySelector('div.cards').appendChild(card);
+}
+
+const MOLikes = document.querySelector('.MOBtn');
+MOLikes.addEventListener('click', KCLikes);
+const CALikes = document.querySelector('.CABtn');
+const TNLikes = document.querySelector('.TNBtn');
+const OKLikes = document.querySelector('.OKBtn');
+
+function KCLikes() {
+  let MOClickNum = Number(window.localStorage.getItem('MOClicks'));
+  MOClickNum++;
+  localStorage.setItem('MOClicks', MOClickNum);
 }
