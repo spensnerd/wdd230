@@ -45,7 +45,7 @@ function displayResults(temples) {
   email.textContent = `${temples.email}`;
   services.textContent = `${temples.services}`;
   history.textContent = `${temples.history}`;
-  ordinance.textContent = `${temples.sessionschedule}`;
+  ordinance.textContent = `${temples.sessionSchedule}`;
 
   card.appendChild(title);
   card.appendChild(image);
