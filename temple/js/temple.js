@@ -78,14 +78,25 @@ function displayResults(temples) {
   document.querySelector('div.cards').appendChild(card);
 }
 
-const MOLikes = document.querySelector('.MOBtn');
-MOLikes.addEventListener('click', KCLikes);
-const CALikes = document.querySelector('.CABtn');
-const TNLikes = document.querySelector('.TNBtn');
-const OKLikes = document.querySelector('.OKBtn');
+// .MOBtn
+// .CABtn
+// .TNBtn
+// .OKBtn
+let MOBtn = document.getElementById('MOBtn'),
+  CABtn = document.getElementById('CABtn'),
+  TNBtn = document.getElementById('TNBtn'),
+  OKBtn = document.getElementById('OKBtn'),
+  clicks = {};
 
-function KCLikes() {
-  let MOClickNum = Number(window.localStorage.getItem('MOClicks'));
-  MOClickNum++;
-  localStorage.setItem('MOClicks', MOClickNum);
+function click(e) {
+  localStorage.setItem(`${temples.address.state}Btn`);
+  // let id = e.target.id;
+  // if (!clicks[id]) clicks[id] = 0;
+  // clicks[id]++;
+  // e.target.textContent = clicks[id];
 }
+
+MOBtn.addEventListener('click', click);
+CABtn.addEventListener('click', click);
+TNBtn.addEventListener('click', click);
+OKBtn.addEventListener('click', click);
