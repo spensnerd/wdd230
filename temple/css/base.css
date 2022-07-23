@@ -12,6 +12,7 @@ Arvoe and Exo for my fonts
 /*-----------ALL PAGES----------*/
 h1, h2, h3, h4, h5 {
 font-family: 'Arvo', Helvetica, serif;
+color: #9c2c13;
 }
 body {
     background-color: #bdd5ea;
@@ -20,7 +21,7 @@ body {
 
 header {
     background-color: #bdd5ea;
-    color: white;
+    color: #9c2c13;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,11 +47,11 @@ main img {
     width: 100%;
 }
 
-.home {
-    display: grid;
-    grid-template-columns: auto;
-    gap: 20px;
+main article {
+    border: 5px #000;
 }
+
+
 /*--------Navigation-------- */
 nav button {
     margin: .2rem 2vw;
@@ -73,12 +74,16 @@ nav ul {
 
 }
 
-nav ul li a, a.active {
+nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #ffffff;
+    color: #9c2c13;
     border-top: 2px solid #9c2c13;
+}
+
+.active a {
+    color: white;
 }
 
 .nav a {
@@ -117,6 +122,17 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+
+/*-----------WEATHER------------*/
+#weather-icon {
+    max-width: 15vw;
+}
+
+
+/*------------FOOTER----------- */
+iframe {
+    width: 20rem;
+}
 /*-------------FORM-------------*/
 form fieldset {
     margin: 2rem 0;

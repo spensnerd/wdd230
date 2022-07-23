@@ -11,4 +11,34 @@
     header img {
         width: 100%;
     }
+
+    #weather-icon {
+        max-width: 11vw;
+    }
+
+    .home {
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        gap: 20px;
+    }
+    
+    h2 {
+        grid-area: 1 / 1 / 2 / 7;
+    }
+    
+    .home p {
+        grid-area: 2 / 1 / 5 / 2;
+    }
+    
+    .home figure {
+        grid-area: 2 / 3 / 5 / 2;
+    }
+    .home ul#services {
+        grid-area: ;
+    }
+    .reservation {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        gap: 20px;
+    }
 }

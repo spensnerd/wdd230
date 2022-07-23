@@ -33,6 +33,11 @@ function displayResults(weatherData) {
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.current.weather[0].icon}.png`;
   const desc = weatherData.current.weather[0].description;
+  const today = new Date();
+  let tomorrow = new Date();
+  let nextDay = new Date();
+  tomorrow.setDate(today.getDate() + 1);
+  nextDay.setDate(today.getDate() + 2);
 
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
@@ -40,11 +45,28 @@ function displayResults(weatherData) {
   document.querySelector('#humidity').textContent =
     weatherData.current.humidity;
 
-  document.querySelector('#today').textContent = weatherData.daily[0].temp.day;
+  document.querySelector('#today').textContent = `${today.toLocaleDateString(
+    'en-us',
+    {
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric',
+    }
+  )}: ${weatherData.daily[0].temp.day}`;
 
-  document.querySelector('#tomorrow').textContent =
-    weatherData.daily[1].temp.day;
+  document.querySelector(
+    '#tomorrow'
+  ).textContent = `${tomorrow.toLocaleDateString('en-us', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+  })}: ${weatherData.daily[1].temp.day}`;
 
-  document.querySelector('#nextDay').textContent =
-    weatherData.daily[2].temp.day;
+  document.querySelector(
+    '#nextDay'
+  ).textContent = `${nextDay.toLocaleDateString('en-us', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+  })}: ${weatherData.daily[2].temp.day}`;
 }
