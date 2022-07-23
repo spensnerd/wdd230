@@ -50,7 +50,7 @@ function displayResults(temples) {
   streetAddress.textContent = `Address: ${temples.address.streetAddress} ${temples.location} ${temples.address.state}, ${temples.address.zipCode}`;
   phone.textContent = `+1 ${temples.telephone}`;
   email.textContent = `${temples.email}`;
-  services.textContent = ` Services: ${temples.services}`;
+  services.textContent = `Services: ${temples.services}`;
   history.textContent = `History: ${temples.history}`;
   baptism.textContent = `Baptism Schedule: ${temples.ordinanceSchedule.Baptisms}`;
   initiatory.textContent = `Initiatory Schedule: ${temples.ordinanceSchedule.Initiatory}`;
@@ -82,11 +82,17 @@ function displayResults(temples) {
 // .CABtn
 // .TNBtn
 // .OKBtn
-let MOBtn = document.getElementById('MOBtn'),
-  CABtn = document.getElementById('CABtn'),
-  TNBtn = document.getElementById('TNBtn'),
-  OKBtn = document.getElementById('OKBtn'),
-  clicks = {};
+// let MOBtn = document.getElementById('MOBtn'),
+//   CABtn = document.getElementById('CABtn'),
+//   TNBtn = document.getElementById('TNBtn'),
+//   OKBtn = document.getElementById('OKBtn'),
+//   clicks = {};
+
+document
+  .getElementById(`${temples.address.state}Btn`)
+  .addEventListener('click', function () {
+    window.localStorage.setItem(`${temples.address.state}BtnLike`, 1);
+  });
 
 function click(e) {
   localStorage.setItem(`${temples.address.state}Btn`);

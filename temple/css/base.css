@@ -33,10 +33,23 @@ header {
 
 main {
     padding: 15px;
+    display: grid;
+    gap: .25rem;
+    
 }
 
 p {
     font-family: 'Exo', Arial, sans-serif;
+}
+
+main img {
+    width: 100%;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
 }
 /*--------Navigation-------- */
 nav button {
@@ -48,24 +61,43 @@ nav button {
 }
 
 nav {
-background-color: #bdd5ea;
-border-bottom: 2px solid #9c2c13;
+    display: block;
+    background-color: #bdd5ea;
+    border-bottom: 2px solid #9c2c13;
 }
 
 nav ul {
-list-style-type: none;
-padding: 0;
-margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 
 }
 
 nav ul li a, a.active {
-display: block;
-padding: .8rem 2vw;
-text-decoration: none;
-color: #ffffff;
-border-top: 2px solid #9c2c13;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 2px solid #9c2c13;
 }
+
+.nav a {
+    display:block; 
+    text-transform: uppercase;
+    font-size: 80%;
+    letter-spacing: 2px;
+    position: relative;
+  }
+
+  .nav li a:first-child:nth-last-child(2):before { 
+    content: ""; 
+    position: absolute; 
+    height: 0; 
+    width: 0; 
+    border: 5px solid transparent; 
+    top: 50% ;
+    right:5px;  
+   }
 
 /* Add the active class to the page link for each page. */
 nav ul li.active a {
@@ -84,65 +116,6 @@ nav ul.open {display: block;}
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
-/* nav ul.primaryNav {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 2vw;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav {
-    margin: 0 auto;
-    max-width: 760px;
-    background-color: #bdd5ea;
-    border-bottom: 2px solid #9c2c13;
-}
-
-.primaryNav li:first-child {
-    display: block;
-}
-
-.primaryNav li {
-    display: none;
-}
-
-.primaryNav a {
-    display: block;
-    padding: .75rem;
-    text-align: left;
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    transition: .5s;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-nav ul li a, a.active {
-    display: block;
-    padding: .8rem 2vw;
-    text-decoration: none;
-    color: #ffffff;
-    border-top: 2px solid rgba(0,0,0,0.5);
-}
-
-nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-}
-
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
-}
-
-nav ul {display: none;}
-nav ul.open {display: block;}
-
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
-
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;} */
 
 /*-------------FORM-------------*/
 form fieldset {

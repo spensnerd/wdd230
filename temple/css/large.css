@@ -1,3 +1,14 @@
 @media only screen and (min-width: 64rem) {
-    
+    header, nav, main, footer, #today {
+        max-width: 70rem;
+        margin: auto;
+    }
+
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+    header img {
+        width: 100%;
+    }
 }

@@ -16,20 +16,24 @@
     </header>
     <nav>
       <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-      <ul id="primaryNav">
+      <ul id="primaryNav" class="nav">
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="temple.html">Temple</a></li>
         <li><a href="reservation.html">Reservation</a></li>
-        <li><a href="service.html">Services</a></li>
-        <li><a href="reception.html">Reception</a></li>
-        <li><a href="missionary.html">Missionary</a></li>
+        <li
+          ><a href="service.html">Services</a>
+          <ul>
+            <li><a href="reception.html">Reception</a></li>
+            <li><a href="missionary.html">Missionary</a></li>
+          </ul></li
+        >
       </ul>
     </nav>
 
     <main>
-      <article>
+      <article class="home" id="welcome">
         <section>
-          <h2>See the Temple (Inn & Suites)</h2>
+          <h2>I Love to See the Temple (Inn & Suites)</h2>
           <figure>
             <img
               src="images/oklahomaTemple800.jpeg"
@@ -38,15 +42,16 @@
             <figcaption>Oklahoma City Temple at night</figcaption>
           </figure>
           <p>
-            At Temple Inn & Suites, we love to see you. You're welcome to enjoy
-            an overnight room, extended stay suite, or just stop in to change on
-            your way to the local temple for the Church of Jesus Christ of
-            Latter-Day Saints. We have a list of amenities for our guests and
-            services such as child care for those who are attending the temple
-            nearby. See the full list below.
+            At Temple Inn & Suites, we love to see you just as much as you love
+            to see the temple. You are welcome to enjoy an overnight room,
+            extended stay suite, or just stop in to change on your way to the
+            local temple for the Church of Jesus Christ of Latter-Day Saints. We
+            have a list of amenities for our guests and services such as child
+            care for those who are attending the temple nearby. See the full
+            list below.
           </p>
         </section>
-      </article>
+      </article class="home">
       <div class="reservation">
         <h2>Make your reservation today!</h2>
         <figure>
@@ -56,10 +61,10 @@
         </figure>
         <p
           >We have lots for the whole family to enjoy. Just click
-          <a href="reservation.html">this link</a> to get started.</p
+          <a href="reservation.html">this link</a> to get started!</p
         >
       </div>
-      <article>
+      <article class="home" id="home">
         <section>
           <h2>A home away from home</h2>
           <figure>
@@ -114,7 +119,7 @@
           </ul>
         </section>
       </article>
-      <article>
+      <article class="home">
         <section>
           <h2>Oklahoma City Temple</h2>
           <p>
@@ -144,13 +149,13 @@
           <p>Humidity: <span id="humidity"></span>&#x25;</p>
         </div>
       </article>
-      <article>
+      <article class="home">
         <section>
           <h2>3 Day forecast</h2>
           <div id="forecast">
-            <p id="today">Today</p>
-            <p id="tomorrow">Tomorrow</p>
-            <p id="nextDay">Next Day</p>
+            <p>Today: <span id="today"></span> &deg;F</p>
+            <p>Tomorrow: <span id="tomorrow"></span> &deg;F</p>
+            <p>Next Day: <span id="nextDay"></span> &deg;F</p>
           </div>
         </section>
       </article>
